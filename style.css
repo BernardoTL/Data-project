@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+body, html {
+    padding:0;
+    margin:0;
+}
+body {
+    background-image:url(https://i.kinja-img.com/gawker-media/image/upload/t_original/pya0jcwlwoudth1a0o0x.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    font-family:'julius sans one';
+    color: white;
+    text-align:center;
+    animation: fadein 2s;
+    color: black;
+}
+#header {
+    padding-top:20%;
+    margin-bottom:20%;
+}
+    h3{
+            color:#F0FFFF;
+      font-family: "Times New Roman", Times, serif;
+        text-shadow: 4px 4px #000000;
+        
+    } 
+        
+p { color:#F0FFFF;
+      font-family: "Times New Roman", Times, serif;
+
+}
+button {
+    background-color: white;
+    color: black;
+    transition-duration:0.4s;
+    cursor:pointer;
+    font-family:'julius sans one';
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:.5%;
+    padding-bottom:.5%;
+    font-size:16px;
+    border:solid 2px white;
+    margin:10px;
+}
+button:hover {
+    background-color: white;
+    color: white;
+    border-color:white;
+}
+#content1 {
+    background-color:white;
+    color:black;
+    height:600px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+#break {
+    background-color: transparent;
+    height: 200px;
+}
+
+button {
+    background-color: black;
+    color: black;
+    border:solid 2px black;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:.5%;
+    padding-top:.5%;
+    font-size:16px;
+    cursor:pointer;
+    transition-duration:0.4s;
+    font-family:'julius sans one'
+   }
+button:hover {
+    background-color:white;
+    color:black;
+    border-color:black;
+    float:none;
+}
+#navbar {
+    colr:black;
+    text-align:right;
+    text-decoration:none;
+    list-style-type:none;
+    background-color:white;
+}
+#home, #about, #teams, #forwhy, #donate {
+    float:left;
+    margin-left:25px;
+    margin-top:30px;
+    cursor:pointer;
+    transition-duration:0.4s;
+}
+#home:hover, #about:hover, #teams:hover, #forwhy:hover, #donate:hover {
+    color:grey;
+     
+}
+.ative {
+    border:solid 1px white;
+    border-radius:4px;
+    padding-top:1.5px;
+    padding-bottom:1.5px;
+    padding-left:1.5px;
+    padding-right:1.5px;
+}
+#content2 {
+    background-color:white;
+    color:black;
+    height:1200px;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+a {
+    text-decoration:none;
+    color:inherit;
+}
+button {
+    text-decoration:none;
+    color:inherit;
+}
+
+#navbar-bgr {
+    background-color: white;
+    position: fixed;
+    height: 100px;
+    color: black;
+    width: 2000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+    float: up;
+}
+.navbar-scrolled {
+    background-color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+h1 {
+     color:#F0FFFF;
+      font-family: "Times New Roman", Times, serif;
+        text-shadow: 4px 4px #000000;
+    
+}
+    
+.home{
+    
+}
+#about:hover{
+   background: black;
+  border-radius: 5px;
+}
+#about:hover{
+    background: black;
+  border-radius: 5px;
+}
+#teams:hover{
+    background: black;
+  border-radius: 5px;
+}
+#forwhy:hover{
+    background: black;
+  border-radius: 5px;
+}
+#donate:hover{
+  background: black;
+  border-radius: 5px;  
+}
+
+h2{
+    color: white;
+      font-family: "Times New Roman", Times, serif;
+    
+}
